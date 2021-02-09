@@ -1,0 +1,407 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "555 Badge"
+Date "2021-02-04"
+Rev "v01"
+Comp ""
+Comment1 "Author Jos Vermoesen"
+Comment2 "vsoft.be"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 555_Badge:7555 U?
+U 1 1 601C4A46
+P 6300 4450
+F 0 "U?" H 6744 4521 50  0000 L CNN
+F 1 "7555" H 6744 4430 50  0000 L CNN
+F 2 "" H 6200 4650 50  0001 C CNN
+F 3 "" H 6200 4650 50  0001 C CNN
+	1    6300 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601C6E73
+P 5450 4100
+F 0 "R?" H 5520 4146 50  0000 L CNN
+F 1 "22k" H 5520 4055 50  0000 L CNN
+F 2 "" V 5380 4100 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601C9BEE
+P 5450 4650
+F 0 "R?" H 5520 4696 50  0000 L CNN
+F 1 "330" H 5520 4605 50  0000 L CNN
+F 2 "" V 5380 4650 50  0001 C CNN
+F 3 "~" H 5450 4650 50  0001 C CNN
+	1    5450 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601C9CF6
+P 7200 4700
+F 0 "R?" V 6993 4700 50  0000 C CNN
+F 1 "22k" V 7084 4700 50  0000 C CNN
+F 2 "" V 7130 4700 50  0001 C CNN
+F 3 "~" H 7200 4700 50  0001 C CNN
+	1    7200 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601CA405
+P 7500 5050
+F 0 "R?" H 7570 5096 50  0000 L CNN
+F 1 "R" H 7570 5005 50  0000 L CNN
+F 2 "" V 7430 5050 50  0001 C CNN
+F 3 "~" H 7500 5050 50  0001 C CNN
+	1    7500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601CA545
+P 8200 4700
+F 0 "R?" V 7993 4700 50  0000 C CNN
+F 1 "10k" V 8084 4700 50  0000 C CNN
+F 2 "" V 8130 4700 50  0001 C CNN
+F 3 "~" H 8200 4700 50  0001 C CNN
+	1    8200 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601CA79A
+P 8950 3400
+F 0 "R?" H 9020 3446 50  0000 L CNN
+F 1 "100k" H 9020 3355 50  0000 L CNN
+F 2 "" V 8880 3400 50  0001 C CNN
+F 3 "~" H 8950 3400 50  0001 C CNN
+	1    8950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 601CAAB2
+P 9450 3400
+F 0 "R?" H 9520 3446 50  0000 L CNN
+F 1 "100k" H 9520 3355 50  0000 L CNN
+F 2 "" V 9380 3400 50  0001 C CNN
+F 3 "~" H 9450 3400 50  0001 C CNN
+	1    9450 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 601D74DE
+P 5450 5250
+F 0 "C?" H 5565 5296 50  0000 L CNN
+F 1 "10uF" H 5565 5205 50  0000 L CNN
+F 2 "" H 5450 5250 50  0001 C CNN
+F 3 "~" H 5450 5250 50  0001 C CNN
+	1    5450 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C?
+U 1 1 601D8F00
+P 7900 5100
+F 0 "C?" H 8015 5146 50  0000 L CNN
+F 1 "100uF" H 8015 5055 50  0000 L CNN
+F 2 "" H 7900 5100 50  0001 C CNN
+F 3 "~" H 7900 5100 50  0001 C CNN
+	1    7900 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 601D9CD9
+P 8950 3950
+F 0 "D?" V 8989 3832 50  0000 R CNN
+F 1 "RED" V 8898 3832 50  0000 R CNN
+F 2 "" H 8950 3950 50  0001 C CNN
+F 3 "~" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 601DC4A5
+P 8950 3950
+F 0 "D?" V 8989 3832 50  0000 R CNN
+F 1 "RED" V 8898 3832 50  0000 R CNN
+F 2 "" H 8950 3950 50  0001 C CNN
+F 3 "~" H 8950 3950 50  0001 C CNN
+	1    8950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 601DC703
+P 9450 3950
+F 0 "D?" V 9489 3832 50  0000 R CNN
+F 1 "RED" V 9398 3832 50  0000 R CNN
+F 2 "" H 9450 3950 50  0001 C CNN
+F 3 "~" H 9450 3950 50  0001 C CNN
+	1    9450 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Transistor_BJT:2N3904 Q?
+U 1 1 601E3E95
+P 8850 4700
+F 0 "Q?" H 9040 4746 50  0000 L CNN
+F 1 "2N3904" H 9040 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9050 4625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 8850 4700 50  0001 L CNN
+	1    8850 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6021C6EE
+P 5450 5600
+F 0 "#PWR?" H 5450 5350 50  0001 C CNN
+F 1 "GND" H 5455 5427 50  0000 C CNN
+F 2 "" H 5450 5600 50  0001 C CNN
+F 3 "" H 5450 5600 50  0001 C CNN
+	1    5450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 602247CF
+P 6250 5600
+F 0 "#PWR?" H 6250 5350 50  0001 C CNN
+F 1 "GND" H 6255 5427 50  0000 C CNN
+F 2 "" H 6250 5600 50  0001 C CNN
+F 3 "" H 6250 5600 50  0001 C CNN
+	1    6250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6022524E
+P 7500 5600
+F 0 "#PWR?" H 7500 5350 50  0001 C CNN
+F 1 "GND" H 7505 5427 50  0000 C CNN
+F 2 "" H 7500 5600 50  0001 C CNN
+F 3 "" H 7500 5600 50  0001 C CNN
+	1    7500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60226AEE
+P 7900 5600
+F 0 "#PWR?" H 7900 5350 50  0001 C CNN
+F 1 "GND" H 7905 5427 50  0000 C CNN
+F 2 "" H 7900 5600 50  0001 C CNN
+F 3 "" H 7900 5600 50  0001 C CNN
+	1    7900 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60227ADF
+P 8950 5600
+F 0 "#PWR?" H 8950 5350 50  0001 C CNN
+F 1 "GND" H 8955 5427 50  0000 C CNN
+F 2 "" H 8950 5600 50  0001 C CNN
+F 3 "" H 8950 5600 50  0001 C CNN
+	1    8950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60243521
+P 5450 3750
+F 0 "#PWR?" H 5450 3600 50  0001 C CNN
+F 1 "VCC" H 5467 3923 50  0000 C CNN
+F 2 "" H 5450 3750 50  0001 C CNN
+F 3 "" H 5450 3750 50  0001 C CNN
+	1    5450 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60243D42
+P 6250 3750
+F 0 "#PWR?" H 6250 3600 50  0001 C CNN
+F 1 "VCC" H 6267 3923 50  0000 C CNN
+F 2 "" H 6250 3750 50  0001 C CNN
+F 3 "" H 6250 3750 50  0001 C CNN
+	1    6250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60246F5C
+P 8950 3150
+F 0 "#PWR?" H 8950 3000 50  0001 C CNN
+F 1 "VCC" H 8967 3323 50  0000 C CNN
+F 2 "" H 8950 3150 50  0001 C CNN
+F 3 "" H 8950 3150 50  0001 C CNN
+	1    8950 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_Slide-Switches:EG1218 S?
+U 1 1 60216387
+P 4250 4050
+F 0 "S?" H 4250 4331 50  0000 C CNN
+F 1 "EG1218" H 4250 4240 50  0000 C CNN
+F 2 "digikey-footprints:Switch_Slide_11.6x4mm_EG1218" H 4450 4250 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4450 4350 60  0001 L CNN
+F 4 "EG1903-ND" H 4450 4450 60  0001 L CNN "Digi-Key_PN"
+F 5 "EG1218" H 4450 4550 60  0001 L CNN "MPN"
+F 6 "Switches" H 4450 4650 60  0001 L CNN "Category"
+F 7 "Slide Switches" H 4450 4750 60  0001 L CNN "Family"
+F 8 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 4450 4850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/e-switch/EG1218/EG1903-ND/101726" H 4450 4950 60  0001 L CNN "DK_Detail_Page"
+F 10 "SWITCH SLIDE SPDT 200MA 30V" H 4450 5050 60  0001 L CNN "Description"
+F 11 "E-Switch" H 4450 5150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4450 5250 60  0001 L CNN "Status"
+	1    4250 4050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L dk_Battery-Holders-Clips-Contacts:BS-7 BAT?
+U 1 1 6020FD49
+P 4050 4600
+F 0 "BAT?" H 4178 4653 60  0000 L CNN
+F 1 "BS-7" H 4178 4547 60  0000 L CNN
+F 2 "digikey-footprints:Battery_Holder_Coin_2032_BS-7" H 4250 4800 60  0001 L CNN
+F 3 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" V 4250 4900 60  0001 L CNN
+F 4 "BS-7-ND" H 4250 5000 60  0001 L CNN "Digi-Key_PN"
+F 5 "BS-7" H 4250 5100 60  0001 L CNN "MPN"
+F 6 "Battery Products" H 4250 5200 60  0001 L CNN "Category"
+F 7 "Battery Holders, Clips, Contacts" H 4250 5300 60  0001 L CNN "Family"
+F 8 "http://www.memoryprotectiondevices.com/datasheets/BS-7-datasheet.pdf" H 4250 5400 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/mpd-memory-protection-devices/BS-7/BS-7-ND/389447" H 4250 5500 60  0001 L CNN "DK_Detail_Page"
+F 10 "BATTERY HOLDER COIN 20MM PC PIN" H 4250 5600 60  0001 L CNN "Description"
+F 11 "MPD (Memory Protection Devices)" H 4250 5700 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 4250 5800 60  0001 L CNN "Status"
+	1    4050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 60231298
+P 4700 3750
+F 0 "#PWR?" H 4700 3600 50  0001 C CNN
+F 1 "VCC" H 4717 3923 50  0000 C CNN
+F 2 "" H 4700 3750 50  0001 C CNN
+F 3 "" H 4700 3750 50  0001 C CNN
+	1    4700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 602476CA
+P 9450 3150
+F 0 "#PWR?" H 9450 3000 50  0001 C CNN
+F 1 "VCC" H 9467 3323 50  0000 C CNN
+F 2 "" H 9450 3150 50  0001 C CNN
+F 3 "" H 9450 3150 50  0001 C CNN
+	1    9450 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6028F607
+P 4050 5600
+F 0 "#PWR?" H 4050 5350 50  0001 C CNN
+F 1 "GND" H 4055 5427 50  0000 C CNN
+F 2 "" H 4050 5600 50  0001 C CNN
+F 3 "" H 4050 5600 50  0001 C CNN
+	1    4050 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 4050 4700 4050
+Wire Wire Line
+	4700 4050 4700 3750
+Wire Wire Line
+	5450 3750 5450 3950
+Wire Wire Line
+	5450 4250 5450 4350
+Wire Wire Line
+	5450 4800 5450 4950
+Wire Wire Line
+	5450 5400 5450 5600
+Wire Wire Line
+	4050 5600 4050 4800
+Wire Wire Line
+	4050 4400 4050 4150
+Wire Wire Line
+	6250 3750 6250 3850
+Wire Wire Line
+	6350 4000 6350 3850
+Wire Wire Line
+	6350 3850 6250 3850
+Connection ~ 6250 3850
+Wire Wire Line
+	6250 3850 6250 4000
+Wire Wire Line
+	5900 4350 5450 4350
+Connection ~ 5450 4350
+Wire Wire Line
+	5450 4350 5450 4500
+Wire Wire Line
+	5900 4450 5700 4450
+Wire Wire Line
+	5700 4450 5700 4550
+Wire Wire Line
+	5700 4950 5450 4950
+Connection ~ 5450 4950
+Wire Wire Line
+	5450 4950 5450 5100
+Wire Wire Line
+	5900 4550 5700 4550
+Connection ~ 5700 4550
+Wire Wire Line
+	5700 4550 5700 4950
+Wire Wire Line
+	6250 5600 6250 4850
+Wire Wire Line
+	6700 4450 6900 4450
+Wire Wire Line
+	6900 4450 6900 4700
+Wire Wire Line
+	6900 4700 7050 4700
+Wire Wire Line
+	7350 4700 7500 4700
+Wire Wire Line
+	8350 4700 8650 4700
+Wire Wire Line
+	7500 4900 7500 4700
+Connection ~ 7500 4700
+Wire Wire Line
+	7500 4700 7900 4700
+Wire Wire Line
+	7900 4950 7900 4700
+Connection ~ 7900 4700
+Wire Wire Line
+	7900 4700 8050 4700
+Wire Wire Line
+	7500 5600 7500 5200
+Wire Wire Line
+	7900 5600 7900 5250
+Wire Wire Line
+	8950 5600 8950 4900
+Wire Wire Line
+	8950 3150 8950 3250
+Wire Wire Line
+	9450 3150 9450 3250
+$EndSCHEMATC
